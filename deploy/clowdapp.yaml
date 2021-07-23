@@ -12,7 +12,6 @@ objects:
   spec:
     envName: ${ENV_NAME}
     dependencies:
-      - ingress
       - ccx-insights-results
     jobs:
       - name: cleaner
