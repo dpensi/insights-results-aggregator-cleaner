@@ -78,7 +78,7 @@ parameters:
   value: "false"
 - name: JOB_SCHEDULE
   description: When the cronjob runs
-  value: "1 */1 * * *"
+  value: "*/10 * * * *"
 - name: CPU_LIMIT
   description: Cpu limit of service
   value: 500m
