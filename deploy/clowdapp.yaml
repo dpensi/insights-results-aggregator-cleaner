@@ -13,7 +13,7 @@ objects:
     envName: ${ENV_NAME}
     dependencies:
       - ingress
-      - insights-results-db
+      - ccx-insights-results
     jobs:
       - name: cleaner
         schedule: ${JOB_SCHEDULE}
@@ -57,7 +57,7 @@ objects:
               cpu: ${CPU_REQUEST}
               memory: ${MEMORY_REQUEST}
     database:
-      sharedDbAppName: insights-results-db
+      sharedDbAppName: ccx-insights-results
 
 
 parameters:
